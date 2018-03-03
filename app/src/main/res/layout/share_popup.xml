@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="#FF000000">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/rl_icerik">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtPShare"
+        android:background="@color/white">
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:hint="@string/message"
+            android:id="@+id/edtMessage"
+            android:textSize="15sp"
+            android:gravity="start"
+            android:background="@drawable/messagebg"
+            android:padding="10dp"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/imgEkranGoruntusu"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/btnpsharebg"
+            android:id="@+id/btnPSend"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:textColor="@color/textColor"
+            android:text="@string/send"/>
+    </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/popuptopbg"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:id="@+id/txtPShare"
+            android:text="@string/share"/>
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/shareotherplatform"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/rl_icerik"
+        android:background="@drawable/shareotherbg"/>
+</RelativeLayout>

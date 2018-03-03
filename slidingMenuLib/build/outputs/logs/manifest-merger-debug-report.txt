@@ -1,0 +1,27 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\omurt\Desktop\KuarkDijital\FixtureMakerSocial\slidingMenuLib\AndroidManifest.xml:2:1-8:12
+INJECTED from C:\Users\omurt\Desktop\KuarkDijital\FixtureMakerSocial\slidingMenuLib\AndroidManifest.xml:2:1-8:12
+INJECTED from C:\Users\omurt\Desktop\KuarkDijital\FixtureMakerSocial\slidingMenuLib\AndroidManifest.xml:2:1-8:12
+	package
+		ADDED from C:\Users\omurt\Desktop\KuarkDijital\FixtureMakerSocial\slidingMenuLib\AndroidManifest.xml:3:5-50
+		INJECTED from C:\Users\omurt\Desktop\KuarkDijital\FixtureMakerSocial\slidingMenuLib\AndroidManifest.xml
+		INJECTED from C:\Users\omurt\Desktop\KuarkDijital\FixtureMakerSocial\slidingMenuLib\AndroidManifest.xml
+	xsi:schemaLocation
+		ADDED from C:\Users\omurt\Desktop\KuarkDijital\FixtureMakerSocial\slidingMenuLib\AndroidManifest.xml:5:5-69
+	xmlns:xsi
+		ADDED from C:\Users\omurt\Desktop\KuarkDijital\FixtureMakerSocial\slidingMenuLib\AndroidManifest.xml:4:5-58
+uses-sdk
+INJECTED from C:\Users\omurt\Desktop\KuarkDijital\FixtureMakerSocial\slidingMenuLib\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\omurt\Desktop\KuarkDijital\FixtureMakerSocial\slidingMenuLib\AndroidManifest.xml
+INJECTED from C:\Users\omurt\Desktop\KuarkDijital\FixtureMakerSocial\slidingMenuLib\AndroidManifest.xml
+INJECTED from C:\Users\omurt\Desktop\KuarkDijital\FixtureMakerSocial\slidingMenuLib\AndroidManifest.xml
+INJECTED from C:\Users\omurt\Desktop\KuarkDijital\FixtureMakerSocial\slidingMenuLib\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\omurt\Desktop\KuarkDijital\FixtureMakerSocial\slidingMenuLib\AndroidManifest.xml
+		ADDED from C:\Users\omurt\Desktop\KuarkDijital\FixtureMakerSocial\slidingMenuLib\AndroidManifest.xml
+		INJECTED from C:\Users\omurt\Desktop\KuarkDijital\FixtureMakerSocial\slidingMenuLib\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\omurt\Desktop\KuarkDijital\FixtureMakerSocial\slidingMenuLib\AndroidManifest.xml
+		ADDED from C:\Users\omurt\Desktop\KuarkDijital\FixtureMakerSocial\slidingMenuLib\AndroidManifest.xml
+		INJECTED from C:\Users\omurt\Desktop\KuarkDijital\FixtureMakerSocial\slidingMenuLib\AndroidManifest.xml

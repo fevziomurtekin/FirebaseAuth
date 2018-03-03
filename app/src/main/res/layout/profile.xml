@@ -1,0 +1,196 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/eee"
+    android:padding="10dp">
+<RelativeLayout
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    >
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:id="@+id/rl_addimage"
+        android:layout_below="@+id/edtFixtureName"
+        android:background="@drawable/createfixturebg">
+
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/imgAddimage"
+            app:riv_corner_radius="5dp"
+            android:src="@drawable/addteamicon"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/addimagebg"
+            android:text="@string/addimage"
+            android:gravity="center"
+            android:id="@+id/txtAddImage"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+
+    </RelativeLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/rl_addimage"
+        android:id="@+id/edtEmail"
+        android:background="@drawable/edt_signin"
+        android:layout_marginLeft="5dp"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:inputType="text"
+        android:nextFocusForward="@id/edtUsername"
+        android:imeOptions="actionNext"
+        android:textColor="@color/textColor"
+        android:hint="@string/email"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/rl_addimage"
+        android:id="@+id/edtUsername"
+        android:background="@drawable/edt_signin"
+        android:inputType="text"
+        android:nextFocusForward="@id/edtCountry"
+        android:imeOptions="actionNext"
+        android:layout_marginLeft="5dp"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/textColor"
+        android:layout_alignBottom="@id/rl_addimage"
+        android:hint="@string/username"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtCountry"
+        android:background="@drawable/edt_signin"
+        android:inputType="text"
+        android:nextFocusForward="@id/edtCity"
+        android:imeOptions="actionNext"
+        android:layout_below="@id/rl_addimage"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/textColor"
+        android:hint="@string/country"/>
+
+    <EditText
+        android:id="@+id/edtCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edt_signin"
+        android:layout_below="@id/edtCountry"
+        android:hint="@string/city"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:nextFocusForward="@id/edtFavoriteSport"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/textColor"
+        android:textSize="15sp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtFavoriteSport"
+        android:background="@drawable/edt_signin"
+        android:layout_below="@id/edtCity"
+        android:layout_marginTop="10dp"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:nextFocusForward="@id/edtFavoriteTeam"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/textColor"
+        android:hint="@string/favsport"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtFavoriteTeam"
+        android:background="@drawable/edt_signin"
+        android:layout_below="@id/edtFavoriteSport"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/textColor"
+        android:hint="@string/favteam"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_signin"
+        android:id="@+id/btnUpdate"
+        android:textSize="15sp"
+        android:layout_below="@id/edtFavoriteTeam"
+        android:layout_marginTop="10dp"
+        android:text="@string/update"
+        android:textAllCaps="false"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtPassword"
+        android:background="@drawable/edt_signin"
+        android:layout_below="@id/btnUpdate"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:nextFocusForward="@id/edtNewPassword"
+        android:imeOptions="actionNext"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/textColor"
+        android:hint="@string/password"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtNewPassword"
+        android:background="@drawable/edt_signin"
+        android:layout_below="@id/edtPassword"
+        android:inputType="text"
+        android:nextFocusForward="@id/edtNewPasswordAgain"
+        android:imeOptions="actionNext"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/textColor"
+        android:hint="@string/newpassword"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtNewPasswordAgain"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:background="@drawable/edt_signin"
+        android:layout_below="@id/edtNewPassword"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/textColor"
+        android:hint="@string/newpasswordagain"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/continuee"
+        android:id="@+id/btnRenewPassword"
+        android:textSize="15sp"
+        android:layout_below="@id/edtNewPasswordAgain"
+        android:layout_marginTop="10dp"
+        android:text="@string/renewpassword"
+        android:textAllCaps="false"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>
+</ScrollView>

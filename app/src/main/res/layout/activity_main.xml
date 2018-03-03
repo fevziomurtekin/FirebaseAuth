@@ -1,0 +1,19 @@
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/toolbar" android:id="@+id/toolbar"/>
+    <include layout="@layout/toolbar_fixture" android:id="@+id/toolbar_fixture" android:visibility="gone"/>
+    <include layout="@layout/comment_menu" android:id="@+id/comment_menu" android:visibility="gone"/>
+    <include layout="@layout/created_fixture" android:visibility="gone" android:id="@+id/created_fixture"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main_container"
+        android:layout_below="@+id/toolbar"/>
+
+    <include layout="@layout/comment_bottom_menu" android:id="@+id/comment_bottom_menu" android:visibility="gone"/>
+
+    <include layout="@layout/commentslider" android:id="@+id/rl_slider" android:visibility="gone"/>
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="eee">#EEEE</color>
+    <color name="white">#fff</color>
+    <color name="ligth_black">#c5c5c5</color>
+    <color name="btnsignin">#EDC300</color>
+    <color name="textColor">#133441</color>
+    <color name="facebookColor">#3B5999</color>
+    <color name="twitterColor">#1DA1F3</color>
+    <color name="googleColor">#E54537</color>
+    <color name="forgetpass">#143542</color>
+    <color name="sendColor">#40A940</color>
+    <color name="c5">#c5c5c5</color>
+    <color name="ddd">#DDDD</color>
+    <color name="green">#3FA93F</color>
+    <color name="ligth_textColor">#2C4A55</color>
+    <color name="ligth_grey">#7F7F7F</color>
+    <color name="transparent">#AA000000</color>
+    <color name="dark_textcolor">#112D38</color>
+    <color name="black">#000</color>
+</resources>

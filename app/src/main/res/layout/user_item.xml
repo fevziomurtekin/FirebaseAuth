@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="@drawable/userbg">
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imgUser"
+        android:layout_margin="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtUsername"
+        android:textColor="@color/textColor"
+        android:layout_toRightOf="@+id/imgUser"
+        android:layout_marginLeft="5dp"
+        android:layout_centerVertical="true"
+        android:textSize="15sp"
+       />
+</RelativeLayout>

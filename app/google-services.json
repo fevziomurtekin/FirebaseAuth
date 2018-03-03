@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "396232225590",
+    "firebase_url": "https://firebase-auth-a6765.firebaseio.com",
+    "project_id": "firebase-auth-a6765",
+    "storage_bucket": "firebase-auth-a6765.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "MOBILE_SDK_APP_ID",
+        "android_client_info": {
+          "package_name": "com.firebase.auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "CLİENT_ID",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.firebase.auth",
+            "certificate_hash": "CERTİFİCATE_HASH"
+          }
+        },
+        {
+          "client_id": "CLİENT_ID",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "CURRENT_KEY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "CLİENT_ID",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    package="com.jeremyfeinstein.slidingmenu.lib"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xsi:schemaLocation="http://schemas.android.com/apk/res/android " >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="26" />
+
+</manifest>

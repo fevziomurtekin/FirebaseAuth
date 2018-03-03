@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="@drawable/edt_signin">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:id="@+id/txtTitle"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:textColor="@color/dark_textcolor"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTitle"
+        android:id="@+id/txtMessage"
+        android:textSize="13sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/textColor"
+        android:padding="5dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/txtMessage"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:background="@drawable/sendcommentbg"
+        android:text="@string/tamam"
+        android:textSize="15sp"
+        android:id="@+id/btnOk"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"/>
+
+</RelativeLayout>
