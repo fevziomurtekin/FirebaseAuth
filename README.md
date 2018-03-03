@@ -1,7 +1,7 @@
 # FirebaseAuth
 Firebase Authentication code guideline.
 
-#Features
+# Features
 <b> Firebase Storage and Database used </b></br>
 -> Sign-in with Email and Password </br>
 -> Verify user's email </br>
