@@ -2,7 +2,7 @@
 Firebase Authentication code guideline.
 
 # Features
-<b> Firebase Storage and Database used </b></br>
+<b> Firebase Storage and Database used </b> </br> </br>
 -> Sign-in with Email and Password </br>
 -> Verify user's email </br>
 -> Sign-in with Google log-in </br>
