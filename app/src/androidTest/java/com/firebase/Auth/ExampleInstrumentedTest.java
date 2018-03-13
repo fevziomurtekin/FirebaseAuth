@@ -1,4 +1,4 @@
-package com.kuarkdijital.fixturemakersocial;
+package com.firebase.Auth;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
